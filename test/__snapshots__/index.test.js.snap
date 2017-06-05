@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-plugin-pkg-module repalce cmd module with es6 module 1`] = `
+"import deprecated from 'rc-util/es/deprecated';
+import emptyFunction from 'fbjs/lib/emptyFunction';
+import ScrollableInkTabBar from 'rc-tabs/es/ScrollableInkTabBar';
+import Table from 'rc-table';
+import foo from '../foo';
+import bar from './bar';
+
+export { guid } from 'rc-util/es/guid';
+export { foo };"
+`;
